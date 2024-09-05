@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.logo {
+    margin: 15px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 50px;
+    border-color: rgb(156, 152, 152);
+    background-color: transparent;
+}
+
+.completediv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divright1{
+    width: 20%;
+    margin-top: 100px;
+    height: 30vh;
+    display: inline-block;
+}
+
+.text-1{
+    height: 100%;
+    font-size: x-large;
+}
+
+.text-2{
+    margin-top: -120px;
+}
+
+.btn2 {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.divleft1{
+    margin-top: 90px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 100px 160px;
+}
+
+.btn3 {
+    font-size: x-large;
+    background-color: greenyellow;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.text-3 {
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin-left: 30px;
+}
+
+.completediv2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divleft2 {
+    padding-left: 40px;
+    border-color: black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(234, 235, 234);
+    display: flex;
+    margin-left: 250px;
+}
+
+.divrig2 {
+    padding-left: 40px;
+    border-color: black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: greenyellow;
+    display: flex;
+    float: right;
+    margin-top: -170px;
+    margin-right: 250px;
+}
+
+.img-1 {
+    padding-top: 10px;
+    padding-left: 130px;
+}
+
+@media screen {min-width: 768px;
+    .header {
+        
+    }
+}
